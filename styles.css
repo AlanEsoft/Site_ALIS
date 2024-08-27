@@ -109,18 +109,18 @@ body {
     bottom: 10px;
     right: 10px;
     display: flex; /* Alinha os links lado a lado */
-    justify-content: center; /* Opcional: centraliza os links horizontalmente no contêiner */
+    justify-content: center; /* Centraliza os links horizontalmente no contêiner */
 }
 
 .bottomlinks a {
     text-decoration: none; /* Remove o sublinhado dos links */
-    color: #f8f5f5; /* Define a cor do texto dos links; ajuste conforme necessário */
+    color: #f8f5f5; /* Define a cor do texto dos links */
     margin: 0 10px; /* Espaçamento horizontal entre os links */
-    font-size: 32px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 32px; 
 }
 
 .bottomlinks a:hover {
-    color: #ff0004; /* Cor dos links ao passar o mouse; ajuste conforme necessário */
+    color: #ff0004; /* Cor dos links ao passar o mouse */
 }
 
 @media (max-width: 1024px) {
@@ -131,7 +131,7 @@ body {
 
 footer {
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     left: 10px;
 }
 
