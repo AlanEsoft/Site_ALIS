@@ -126,6 +126,10 @@ body {
 @media (max-width: 1024px) {
     .bottomlinks {
         position: relative;
+        margin-left: 10px;
+    }
+    .bottomlinks a {
+        font-size: 26px;
     }
 }
 
