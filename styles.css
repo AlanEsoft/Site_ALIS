@@ -36,6 +36,13 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    .imgzap {
+        display: none;
+    }
+    .servicos {
+        width: 100%;
+        height: 90%;
+    }
 }
 
 .logo {
@@ -55,11 +62,6 @@ body {
     right: 10px;
   }
 
-@media (max-width: 768px) {
-    .imgzap {
-        display: none;
-    }
-}
   
 .servicos {
     display: flex;
