@@ -40,8 +40,8 @@ body {
         display: none;
     }
     .servicos {
-        width: 100vw;
-        height: 95vh;
+        width: 95%;
+        height: 97vh;
     }
 }
 
